@@ -106,7 +106,7 @@ function stepString() {
 }
 
 function exportPerma() {
-	ret = "https://query.design/colors/#" + stepString();
+	ret = "https://quer y.design/colors/#" + stepString();
 	copyClip(ret);
 	alert('Copied link to clipboard');
 }
