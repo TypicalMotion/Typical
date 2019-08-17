@@ -51,7 +51,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 6,
+        "value": 3,
         "random": true,
         "anim": {
           "enable": false,
@@ -86,7 +86,7 @@ particlesJS('particles-js',
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "repluse"
         },
         "onclick": {
           "enable": true,
