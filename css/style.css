@@ -90,7 +90,7 @@ canvas{
   height: 100%;
   background-color: #472525;
   background-image: url('');
-  background-size: cover;
-  background-position: 0% 0%;
+  background-size: static;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
