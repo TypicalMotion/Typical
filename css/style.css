@@ -23,27 +23,6 @@ li{list-style:none}
    ========================================================================== */
 
 /* ---- base ---- */
-.generate-merged-header .site-header {
-    z-index: 1;
-}
-
-#particles-js {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    z-index: 0;
-}
-
-.page-header-content {
-    position: relative;
-}
-
-
-
-
-
 
 html,body{ 
 	width:100%;
@@ -115,3 +94,24 @@ canvas{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+.generate-merged-header .site-header {
+    z-index: 1;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 0;
+}
+
+.page-header-content {
+    position: relative;
+}
+
+
+
+
+
