@@ -1,43 +1,49 @@
-<!DOCTYPE html>
+<div class="animated fadeIn slow"<!DOCTYPE html>
 
 <html>
 <head>
+	<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
    <link rel="stylesheet" media="screen" href="css/style.css">
 <title>Home</title>
 <link type="text/css" rel="stylesheet"href="css/index.css"/>
 <style>
-
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 .button2 {
-    color: #bd4444;
-    border: 0px solid #bd4444;
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size:100px;
+    color: #4A4A4A;
+    border: 0px solid #4A4A4A;
+    font-family: OldNewspaperTypes;
+    font-weight: 00;
+    font-size:50px;
     padding-top: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
     text-align: center;
 }
 .mediumtext {
-    color: #a63c3c;
+    color: #5F5F5F;
     border: 0px solid #a63c3c;
-    border-radius: 16px;
-    font-family: sans-serif;
+    border-radius: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
     font-weight: 600;
     font-size: 26px;
     padding-top: 0px;
     padding-left: 125px;
     padding-right: 125px;
-    margin-bottom: 2px;
+    margin-bottom: 60px;
     padding-bottom: 0px;
     margin-top: 0px;
     text-align: center;
 }
-.
-    margin-bottom: 2px;
-    padding-bottom: 20px;
-    margin-top: 0px;
-    text-align: center;
+
 }
 .button6 {
     color: darkslategrey;
@@ -94,15 +100,16 @@
     
 }
 .button7 {
-    color: #732929;
+    color: #2d2d2d;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 16px;
     padding-top: 0px;
-    padding-left: 40px;
-    padding-right: 800px;
+    padding-left: 0px;
+    padding-right: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+	margin-left: 20px;
     display: inline-block;
     text-decoration: none;
 }
@@ -195,7 +202,7 @@
   transition:.5s;
 }
 .hvr2:hover { 
-    color:crimson
+    color:lightgrey
 }
 .hvr4{
   /* First we need to help some browsers along for this to work.
@@ -216,7 +223,7 @@
 
 
 .button7.hvr2 {
-    font-family: BigNoodleTitling;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 .button1 .button.button4 .hvr.button5 {
     font-family: BigNoodleTitling;
@@ -226,35 +233,40 @@
 }
 </style>
     <link rel="icon" href="/images/favicon.png">
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-   <!-- particles.js container -->
-<div id="particles-js" style="position:fixed;"></div>
+	
+
+	
+   
 <a href="https://www.youtube.com/channel/UCS9oTT0bEs01oVgS8pjwNjQ"></a>
 
 
+
 <div>
-<p><span class="button7"></span></p>
-<p><a class="button7 hvr2">home</a></p>
+<video id="videoBG" poster="poster.JPG" autoplay muted loop>
+    <source src="bg.mp4" type="video/mp4">
+  </video>
+	<p><span class="button7"></span></p>
+  <p><a class="animated unselectable fadeIn delay-s button7 hvr2">home</a></p>
 <p><a href="portfolio.html" class="button7 hvr2">portfolio</a></p>
   <p><a href="contact.html" class="button7 hvr2">contact</a></p>
   <p><a href="shop.html" class="button7 hvr2">shop</a></p>
 <other class="button"> </other>
 </div>
 <main class="button1">
-    <all class="button button4">
-<p class="button2"style="cursor:default;padding-bottom: 20px;">typical</p>
-<p class="button3 mediumtext"style="cursor:default">modern, unique designs.</p>
-<p class="mediumtext"style="cursor:default;padding-bottom: 20px;">Hello! I'm Typical. Want unique, modern, professional, well-priced, designs? Then you're already here. Visit my shop, and purchase now!</p> 
-        <a href="portfolio.html" class="hvr2 button5">portfolio</a>
-        <a href="shop.html" class="hvr2 button5">shop</a>
-  </all>
+
+		<img src="TEXT-typical banner (0-00-00-00) (0-00-00-00).png" class="animated unselectable fadeIn slow delay-1s"  alt="text" width="700" height="128">
+<h1 class="animated fadeIn slow delay-2s unselectable button2"style="cursor:default">modern, unique designs.</p>
+<h1 class="animated fadeIn slower delay-3s mediumtext"style=">Hello! I'm Typical. Want unique, modern, professional, well-priced, designs? Then you're already here. Visit my shop, and purchase now!</p>
+	
 </main>
 
 <!-- scripts -->
 <script src="../particles.js"></script>
 <script src="js/app.js"></script>
   <div id="particles-js"></div>
-<script src="particles.js"></script>   
+<script src="particles.js"></script>
 </body>
 </html>
