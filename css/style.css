@@ -1,0 +1,46 @@
+    #videoBG {
+        position:fixed;
+        z-index: -1;
+    }
+    #videoBG {
+        position:fixed;
+        z-index: -1;
+    /*not work if the screen ratio is below 16/9*/
+        width:100%;     
+        height: auto;
+    }
+#videoBG {
+    top: -2px;
+	left: -0px;
+}
+
+#videoBG {
+    overflow: hidden;
+}
+    body {
+        opacity: 1;
+        transition: 1s opacity;
+    }
+    body.fade-out {
+        opacity: 0;
+        transition: none;
+    }
+#test p {
+    opacity: 0;
+    font-size: 21px;
+    margin-top: 25px;
+    text-align: center;
+
+    -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+}
+
+#test p.load {
+    opacity: 1;
+}
+body {
+  background-color: black;
+}
