@@ -44,11 +44,17 @@
 body {
   background-color: white;
 }
+
+
+
 @font-face {
     font-family: 'OldNewspaperTypes';
-    src: url('css/OldNewspaperTypes.ttf');
-    font-weight: normal;
+    src: url(images/OldNewspaperTypes.ttf);
     font-style: normal;
-
+    font-weight: 100;
 }
 
+p {
+    font-family: OldNewspaperTypes;
+    font-weight: 100;
+}
